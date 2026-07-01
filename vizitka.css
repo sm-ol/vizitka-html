@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcfaf7;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #4a4540;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.top-nav {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #7d7265;
+    background-color: #f5ede4;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.top-nav a:hover {
+    background-color: #ffcca3;
+    color: #ffffff;
+}
+
+.card-container {
+    background-color: #ffffff;
+    max-width: 500px;
+    width: 100%;
+    padding: 0 40px 40px 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(140, 130, 117, 0.06);
+    text-align: center;
+    overflow: hidden;
+}
+
+.avatar-bg {
+    background-color: #ffcca3;
+    width: calc(100% + 80px);
+    margin-left: -40px;
+    padding: 40px 0;
+    margin-bottom: 25px;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.fio {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2b2825;
+    margin-bottom: 30px;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #5c554e;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8c8275;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.skills-list,
+.qualities-list {
+    list-style: none;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.skills-list li,
+.qualities-list li {
+    font-size: 14px;
+    line-height: 1.8;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 6px;
+}
+
+.skills-list li::before,
+.qualities-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #d1b499;
+    font-size: 18px;
+    top: -2px;
+}
+
+.card-footer {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #f2ede6;
+}
+
+.contacts-block {
+    text-align: left;
+    margin-bottom: 25px;
+    background-color: #fcfaf7;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contacts-block p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contacts-block p:last-child {
+    margin-bottom: 0;
+}
+
+.contacts-block a {
+    color: #8c8275;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-bottom: 1px dashed transparent;
+    padding-bottom: 1px;
+}
+
+.contacts-block a:hover {
+    color: #bfa38a;
+    border-bottom: 1px dashed #bfa38a;
+}
+
+.welcome-text {
+    font-size: 13px;
+    font-style: italic;
+    color: #a69b8f;
+    letter-spacing: 0.5px;
+}
