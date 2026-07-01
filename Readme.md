@@ -5,4 +5,4 @@
 - CSS3 (Flexbox, плавные переходы)
 
 Как открыть и посмотреть сайт:
-Сайт опубликован по адресу: [https://github.com/sm-ol](https://sm-ol.github.io/vizitka-html/)
+сайт опубликован по адресу: [https://github.com/sm-ol](https://sm-ol.github.io/vizitka-html/)
